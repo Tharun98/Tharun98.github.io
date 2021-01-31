@@ -1,0 +1,11 @@
+{
+ "name": "tharundtr.io",
+ "icons": [
+  {
+   "src": "/images/favicon/favicon.ico",
+   "sizes": "16x16",
+   "type": "image/ico",
+   "density": "4.0"
+  }
+ ]
+}
