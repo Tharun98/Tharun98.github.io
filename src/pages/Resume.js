@@ -8,49 +8,6 @@ import pdf from '../data/Sample.pdf';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-// import Main from '../layouts/Main';
-
-// import Education from '../components/Resume/Education';
-// import Experience from '../components/Resume/Experience';
-// import Skills from '../components/Resume/Skills';
-// import Courses from '../components/Resume/Courses';
-// import References from '../components/Resume/References';
-// import courses from '../data/resume/courses';
-// import degrees from '../data/resume/degrees';
-// import positions from '../data/resume/positions';
-// import { skills, categories } from '../data/resume/skills';
-
-// const Document, Page, sections = [
-//   'Education',
-//   'Experience',
-//   'Skills',
-//   'Courses',
-//   'References',
-// ];
-
-// function onResumeClick() {
-//   window.open(Pdf);
-// }
-
-// const Resume = () => (
-//   <button type="button" onClick={window.open(pdf)}>
-//     Resume
-//   </button>
-
-// );
-
-// const Resume = () => (
-//   <div className="App">
-//     <pdf />
-//   </div>
-// );
-
-// const divStyle = {
-//   display: block,
-//   margin-left: auto,
-//   margin-right: auto,
-// };
-
 class Resume extends Component {
   constructor(props) {
     super(props);
@@ -71,13 +28,26 @@ class Resume extends Component {
     return (
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Document file={pdf} onLoadSuccess={this.onDocumentLoad}>
-          <Page pageNumber={pageNumber} scale="2" />
+          <Page pageNumber={pageNumber} scale="1" />
         </Document>
-        <p style={{ display: 'flex', justifyContent: 'center' }}> Page {pageNumber} of {numPages}</p>
+        <p> Page {pageNumber} of {numPages}</p>
       </div>
 
     );
   }
 }
 
+// class Resume extends Component {
+
+//   render() {
+
+//     return (
+//       <div style={{ display: 'flex', justifyContent: 'center' }}>
+//         <Document file={pdf}>
+//         </Document>
+//       </div>
+
+//     );
+//   }
+// }
 export default Resume;
