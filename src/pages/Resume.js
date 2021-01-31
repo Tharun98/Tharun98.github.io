@@ -8,46 +8,61 @@ import pdf from '../data/Sample.pdf';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
+// class Resume extends Component {
+//   constructor(props) {
+//     super(props);
+
+//     this.state = {
+//       numPages: null,
+//       pageNumber: 1,
+//     };
+//   }
+
+//   onDocumentLoad = ({ numPages }) => {
+//     this.setState({ numPages });
+//   }
+
+//   render() {
+//     const { pageNumber, numPages } = this.state;
+
+//     return (
+//       <div style={{ display: 'flex', justifyContent: 'center' }}>
+//         <Document file={pdf} onLoadSuccess={this.onDocumentLoad}>
+//           <Page pageNumber={pageNumber} scale="1" />
+//         </Document>
+//         <p> Page {pageNumber} of {numPages}</p>
+//       </div>
+
+//     );
+//   }
+// }
+
 class Resume extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      numPages: null,
       pageNumber: 1,
     };
   }
 
-  onDocumentLoad = ({ numPages }) => {
-    this.setState({ numPages });
-  }
+  // onDocumentLoad = ({ numPages }) => {
+  //   this.setState({ numPages });
+  // }
 
   render() {
-    const { pageNumber, numPages } = this.state;
+    const { pageNumber } = this.state;
 
     return (
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <Document file={pdf} onLoadSuccess={this.onDocumentLoad}>
+        <Document file={pdf}>
           <Page pageNumber={pageNumber} scale="1" />
         </Document>
-        <p> Page {pageNumber} of {numPages}</p>
+        {/* <p> Page {pageNumber} of {numPages}</p> */}
       </div>
 
     );
   }
 }
 
-// class Resume extends Component {
-
-//   render() {
-
-//     return (
-//       <div style={{ display: 'flex', justifyContent: 'center' }}>
-//         <Document file={pdf}>
-//         </Document>
-//       </div>
-
-//     );
-//   }
-// }
 export default Resume;
