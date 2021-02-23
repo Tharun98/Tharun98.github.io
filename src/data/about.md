@@ -14,11 +14,12 @@ My interests include Machine learning, Computer vision, Deep learning, Algorithm
 # Hobbies
 
 - Football. Huge FC Barcelona fan ♥.
-- F1. Started watching in 2020 during lockdown and covered almost all previous year races:)
+- F1. thanks to lockdown:)
 - Cricket. Sunrisers Hyderabad
-- Web series. Friends, TBBT, Breaking Bad, Suits, GOT...  
+- Watching Web series.
 - Jogging.
 - Books. Dan Brown.
+- Skiing, loved it. Started this year at Zao Ski resort.
 
 # From
 
