@@ -1,7 +1,7 @@
 
 # Intro
 
-I am a data scientist and software engineer at Yokogawa. My current work predominantly includes developing solutions which assist humans in factories, thus increasing overall productivity. 
+I am a Machine learning engineer at Yokogawa. My current work predominantly includes developing solutions which assist humans in factories, increasing overall productivity. 
 
 My interests include Machine learning, Computer vision, Deep learning, Algorithms, Data pipelines and Infrastructure. 
 
@@ -19,10 +19,9 @@ My interests include Machine learning, Computer vision, Deep learning, Algorithm
 - Watching Web series.
 - Jogging.
 - Books. Dan Brown.
-- Skiing, loved it. Started this year at Zao Ski resort.
-
+- Skiing, loved it(Maybe not the first time:)). 
 # From
 
 - I am originally from Achampet, Nagarkurnool, Telangana. I have lived significant part of my life in
-Hyderabad where I finished my high school and bachelors. I moved to Tokyo, Japan in October 2019.
+Hyderabad where I finished my high school and bachelors. Moved to Tokyo, Japan in October 2019.
 
