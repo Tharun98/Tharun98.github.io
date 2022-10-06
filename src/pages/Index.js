@@ -11,7 +11,7 @@ const Index = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading">Hi</h2>
-          <p>I&apos;m Tharun. I am a Software Engineer with inclination towards Data science,
+          <p>I&apos;m Tharun. I am a Machine learning Engineer
             working at
             <a href="https://www.yokogawa.com/"> Yokogawa, Tokyo</a>.
             <a href="https://iith.ac.in/"> IIT Hyderabad</a> Alumnus.
