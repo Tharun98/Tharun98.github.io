@@ -1,7 +1,7 @@
 
 # Intro
 
-I am a Machine learning engineer at Yokogawa. My current work predominantly includes developing solutions which assist humans in factories, increasing overall productivity. 
+I am a Machine learning engineer at Yokogawa since 2019. My current work predominantly includes developing solutions which assist humans in factories, increasing overall productivity. 
 
 My interests include Machine learning, Computer vision, Deep learning, Algorithms, Data pipelines and Infrastructure. 
 
